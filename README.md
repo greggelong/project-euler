@@ -36,7 +36,7 @@ Summation of Primes
 
 ![sumPrimeEu10.png](sumPrimeEu10.png)
 
-[see it live here](greggelong.github.io\euler10)
+[see it live here](https://greggelong.github.io/euler10)
 
 
 --------
