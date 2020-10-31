@@ -31,6 +31,15 @@ Find the product abc.” The solutions for triples that equal 1000 are the two y
 
 --------
 
+## Problem 10
+Summation of Primes
+
+![sumPrimeEu10.png](sumPrimeEu10.png)
+
+[see it live here](greggelong.github.io\euler10)
+
+
+--------
 ## Problem 14
 
 ![collatzcolor.png](collatzcolor.png)
