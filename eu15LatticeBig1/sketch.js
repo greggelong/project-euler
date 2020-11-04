@@ -16,7 +16,7 @@ function setup() {
   textSize(16)
   frameRate(10);
   myturtle = turtle();
-  instr = findPermutations('LLLLLLLLLDDDDDDDDD');
+  instr = findPermutations('RRRRRRRRRDDDDDDDDD');
   //console.log(instr)
   stroke(0,255,0);
   translate(50,50);
@@ -87,7 +87,7 @@ function* turtle(){
     switch (current) {
      
         
-       case "L":
+       case "R":
        	ball.x+=sz;
        	rect(ball.x,ball.y,sz,sz);
         //yield
