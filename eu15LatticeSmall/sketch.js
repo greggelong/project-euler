@@ -16,7 +16,7 @@ function setup() {
   textSize(16)
   frameRate(10);
   myturtle = turtle();
-  instr = findPermutations('LLLLDDDD');
+  instr = findPermutations('RRRRDDDD');
   console.log(instr)
   stroke(0,255,0);
   translate(150,150);
@@ -25,7 +25,7 @@ function setup() {
   fill(255,0,0,50)
   ellipse(ball.x,ball.y, sz,sz)
   text("path: "+nextinst+" "+instr[nextinst],0, 130)
-  turtle('LLLLDDDD')
+  turtle('RRRRDDDD')
   
 }
 
@@ -81,7 +81,7 @@ function* turtle(){
     switch (current) {
      
         
-       case "L":
+       case "R":
        	ball.x+=sz;
        	ellipse(ball.x,ball.y,sz,sz);
         //yield
